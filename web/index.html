@@ -1,0 +1,35 @@
+
+<html>
+    <head>
+        <title>Paises</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body> 
+        <form action ="Paises" method="POST">
+            <h1> Paises Africanos </h1>    
+            <p>Seleccione el país donde desea información. <br>
+                Ingrese numero de pesos, seleccione una palabra de español para traducirla. </p>
+
+            <h3>Por favor seleccione el país deseado:</h3>
+            <select name="paises">
+                <option value="1">Argelia</option>
+                <option value="2">Camerún</option>
+                <option value="3">Costa de marfil</option>
+                <option value="4">Egipto</option>
+                <option value="5">Nigeria</option>
+                <option selected>--Seleccionar--</option>
+            </select>
+            <h3>Por favor ingrese la cantidad de pesos a convertir:</h3>
+            Ingrese Pesos: <input type="text" name="pesos"><br><br>
+           <h3>Por favor seleccione la palabra a traducir:</h3>
+            <input type="radio" name="palabra" value="1" >HOLA  <br>
+            <input type="radio" name="palabra" value="2" >ADIOS<br>
+            <input type="radio" name="palabra" value="3">BUENOS DIAS<br>
+            <input type="radio" name="palabra" value="4">BUENAS TARDES<br>
+            <input type="radio" name="palabra" value="5">BUENAS NOCHES<br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        </body>   
+</html>
